@@ -1,0 +1,14 @@
+CMake Error at CMakeLists.txt:25 (include):
+  include could not find requested file:
+
+    /home/ravindra/esp32_ble/third_party/connectedhomeip/examples/common/cmake/idf_flashing.cmake
+
+
+CMake Error at /home/ravindra/esp-idf/tools/cmake/project.cmake:407 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /home/ravindra/esp32_ble/third_party/connectedhomeip/config/esp32/components
+Call Stack (most recent call first):
+  /home/ravindra/esp-idf/tools/cmake/project.cmake:491 (__project_init)
+  CMakeLists.txt:37 (project)
+
+
